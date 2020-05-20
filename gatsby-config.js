@@ -3,7 +3,7 @@ module.exports = {
     title: `ipsis.literis`,
     author: `Arik Bartzadok`,
     description: `Um blog literal.`,
-    siteUrl: `https://ipsis-literis.netlify.com/`,
+    siteUrl: `https://ipsis-literis.now.sh`,
     social: {
       twitter: `dhiogo_fer`,
     },

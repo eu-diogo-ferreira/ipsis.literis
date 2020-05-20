@@ -57,7 +57,7 @@ class Layout extends React.Component {
         </div>
         <footer>
           © {new Date().getFullYear()} <a
-              href="https://veryben.com"
+              href="https://diogodeveloper.netlify.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -89,7 +89,7 @@ class Layout extends React.Component {
             </a>{" "}
             &bull;{" "}
             <a
-              href="https://codepen.io/dhiogo_fer"
+              href="https://codepen.io/ArikBartzadok"
               target="_blank"
               rel="noopener noreferrer"
             >

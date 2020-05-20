@@ -6,7 +6,7 @@ body {
 }
 
 body.light {
-  --bg: rgb(218, 218, 218);
+  --bg: rgb(231, 231, 231);
   --header: #000;
   --textNormal: #222;
   --textTitle: #222;
@@ -229,8 +229,8 @@ main {
         box-shadow: none;
         padding: 0 2px;
         margin-right: 6px;
-        background-color: #fff;
-        color: #333090;
+        background-color: rgba(255, 255, 255, 0.685);
+        color: #10d8fc;
       }
     }
   }

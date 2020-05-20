@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Arik Bartzadok <diogo.santos134@etec.sp.gov.br>",
   "bugs": {
-    "url": "https://github.com/ArikBartzadok/ipsis-literis/issues"
+    "url": "https://github.com/ArikBartzadok/ipsis.literis/issues"
   },
   "dependencies": {
     "gatsby": "^2.15.29",
@@ -43,7 +43,7 @@
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "homepage": "https://ipsis-literis.netlify.com/",
+  "homepage": "https://ipsis-literis.now.sh",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf public && rm -rf .cache && gatsby build",
