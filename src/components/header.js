@@ -1,6 +1,7 @@
 import React from "react"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+//import AniLink from "gatsby-plugin-transition-link/AniLink"
 import PropTypes from "prop-types"
+import { Link } from "gatsby"
 
 import Headroom from "react-headroom"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
@@ -13,9 +14,9 @@ class Header extends React.Component {
         <Headroom>
           <div className="navbar">
             <h1>
-              <AniLink cover direction="down" bg="#8c61ff" to="/">
+              <Link cover direction="down" bg="#8c61ff" to="/">
                 {siteTitle}
-              </AniLink>
+              </Link>
             </h1>
 
             <ThemeToggler>

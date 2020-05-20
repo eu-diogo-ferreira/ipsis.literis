@@ -1,7 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { kebabCase } from "lodash"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+//import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { Link } from "gatsby"
 import Lettering from "../components/lettering"
 
 import Bio from "../components/bio"
@@ -30,14 +31,14 @@ class Post extends React.Component {
               <ul className="tags">
                 {post.frontmatter.tags.map(tag => (
                   <li key={tag + `tag`}>
-                    <AniLink
+                    <Link
                       cover
                       direction="down"
                       bg="#8c61ff"
                       to={`/tags/${kebabCase(tag)}`}
                     >
                       #{tag}
-                    </AniLink>
+                    </Link>
                   </li>
                 ))}
               </ul>
