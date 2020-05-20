@@ -7,7 +7,7 @@ import { rhythm } from "../utils/typography"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "profile-pic.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "diogo_pixel.png" }) {
         childImageSharp {
           fluid(maxWidth: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -37,10 +37,10 @@ const Bio = () => {
       >
         <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Arik Bartzadok" />
       </div>
-      <p style={{ maxWidth: 180 }}>
-        Blog by <a href="https://diogodeveloper.netlify.com">Arik Bartzadok</a>
+      <p style={{ maxWidth: 300 }}>
+        Desenvolvido por <a href="https://diogodeveloper.netlify.com">Arik Bartzadok</a>
         <br />
-        I make my point
+        
       </p>
     </div>
   )

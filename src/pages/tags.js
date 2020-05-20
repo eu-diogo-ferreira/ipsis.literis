@@ -27,7 +27,7 @@ const Tags = ({ data }) => {
                 bg="#8c61ff"
                 to={`/tags/${kebabCase(tag.fieldValue)}`}
               >
-                {tag.fieldValue} ({tag.totalCount})
+                #{tag.fieldValue}: [{tag.totalCount}]
               </Link>
             </li>
           ))}
