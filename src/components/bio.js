@@ -38,7 +38,7 @@ const Bio = () => {
         <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Arik Bartzadok" />
       </div>
       <p style={{ maxWidth: 180 }}>
-        Blog by <a href="https://twitter.com/dhiogo_fer">Arik Bartzadok</a>
+        Blog by <a href="https://diogodeveloper.netlify.com">Arik Bartzadok</a>
         <br />
         I make my point
       </p>
